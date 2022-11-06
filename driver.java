@@ -41,7 +41,7 @@ public class driver {
     }
   
 
-    static void quickqort(int[] arr) {
+    static void quickSort(int[] arr) {
         quickSort(arr, 0, arr.length-1);
     }
 
@@ -63,6 +63,19 @@ public class driver {
             quickSort(arr, low, pi - 1);
             quickSort(arr, pi + 1, high);
         }
+    }
+
+    static void bubbleSort(int arr[])
+    {
+        int n = arr.length;
+        for (int i = 0; i < n - 1; i++)
+            for (int j = 0; j < n - i - 1; j++)
+                if (arr[j] > arr[j + 1]) {
+                    // swap arr[j+1] and arr[j]
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
     }
 
     static int[] populateArray(int length, int max){
@@ -89,30 +102,32 @@ public class driver {
         ins.startTiming("Generate Array");
         ins.startTiming("populateArray()");
 
-        int[] arr = populateArray(1000000, 99999);
+        int[] arr = populateArray(10000, 99999);
+        int[] arr2 = arr.clone(); 
 
         ins.stopTiming("Done populating");
 
         if (debug) {
 
-        
             System.out.println("Random:");
-            for (int num : arr) {
+            for (int num : arr2) {
                 System.out.print(num + " ");
             }
             System.out.println("\n");
         }
         ins.stopTiming(null);
 
-        ins.startTiming("Sorting");
-        quickqort(arr);
+        ins.startTiming("QuickSort");
+        quickSort(arr);
+        ins.stopTiming("Done sorting");
+
+        ins.startTiming("BubbleSort");
+        bubbleSort(arr);
         ins.stopTiming("Done sorting");
 
         ins.startTiming("Printing");
         
         if (debug) {
-
-        
             System.out.println("Sorted:");
             for (int num : arr) {
                 System.out.print(num + " ");
@@ -121,6 +136,7 @@ public class driver {
         }
 
         ins.stopTiming(null);
-        ins.dump("quicksort.log");
+
+        ins.dump("sort.log");
     }
 }
