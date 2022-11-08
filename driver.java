@@ -20,14 +20,15 @@ public class driver {
 
         boolean debug = false;
 
-        Instrumentation ins = Instrumentation.getInstance();    
+        Instrumentation ins = Instrumentation.Instance();    
         ins.activate(true);
-
+        
+        ins.startTiming("Main");
         ins.startTiming("Generate Array");
         ins.startTiming("populateArray()");
 
         int[] arr = populateArray(10000, 99999);
-        int[] arr2 = arr.clone(); 
+        int[] arr2 = arr.clone();   
 
         ins.stopTiming("Done populating");
 
@@ -60,6 +61,8 @@ public class driver {
         }
 
         ins.stopTiming(null);
+
+        ins.stopTiming("Main");
 
         ins.dump("sort.log");
     }
