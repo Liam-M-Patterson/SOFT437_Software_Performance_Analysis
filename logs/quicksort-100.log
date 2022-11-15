@@ -1,0 +1,266 @@
+STARTTIMING: Main
+|	STARTTIMING: Generate Array
+|	|	STARTTIMING: populateArray()
+|	|	STOPTIMING: Done populating 0ms
+|	STOPTIMING: null 0ms
+|	STARTTIMING: QuickSort - Instrumented Main
+|	|	STARTTIMING: quicksort
+|	|	|	STARTTIMING: quicksort
+|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	STOPTIMING: End quicksort 1ms
+|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	STOPTIMING: End quicksort 1ms
+|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	STOPTIMING: End quicksort 2ms
+|	|	|	STOPTIMING: End quicksort 2ms
+|	|	|	STARTTIMING: quicksort
+|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	|	STARTTIMING: quicksort
+|	|	|	|	STOPTIMING: End quicksort 0ms
+|	|	|	STOPTIMING: End quicksort 0ms
+|	|	STOPTIMING: End quicksort 3ms
+|	STOPTIMING: Done quicksort - Instrumented main 3ms
+|	STARTTIMING: QuickSort - Unistrumented Main
+|	STOPTIMING: Done quicksort - uninstrumented Main 0ms
+|	STARTTIMING: Printing
+|	STOPTIMING: null 0ms
+STOPTIMING: Main 4ms

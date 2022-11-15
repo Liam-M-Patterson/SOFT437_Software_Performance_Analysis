@@ -27,13 +27,15 @@ public class driver {
         ins.startTiming("Generate Array");
         ins.startTiming("populateArray()");
 
-        int[] arr = populateArray(10000, 99999);
-        int[] arr2 = arr.clone();   
+
+        int arrLength = 1000;
+        int[] arr = populateArray(arrLength, 99999);
+        int[] arr2 = arr.clone();           
 
         ins.stopTiming("Done populating");
 
         if (debug) {
-
+ 
             System.out.println("Random:");
             for (int num : arr2) {
                 System.out.print(num + " ");
@@ -42,16 +44,15 @@ public class driver {
         }
         ins.stopTiming(null);
 
-        ins.startTiming("QuickSort");
+        ins.startTiming("QuickSort - Instrumented Main");
         QuickSort.quickSort(arr);
-        ins.stopTiming("Done sorting");
-
-        ins.startTiming("BubbleSort");
-        BubbleSort.bubbleSort(arr);
-        ins.stopTiming("Done sorting");
-
-        ins.startTiming("Printing");
+        ins.stopTiming("Done quicksort - Instrumented main");
         
+        ins.startTiming("BubbleSort - Instrumented Main");
+        BubbleSort.bubbleSort(arr2);
+        ins.stopTiming("Done bubblesort - Instrumented Main");
+        
+        ins.startTiming("Printing");        
         if (debug) {
             System.out.println("Sorted:");
             for (int num : arr) {
@@ -60,10 +61,21 @@ public class driver {
             System.out.println("\n");
         }
 
+        try {
+            int i = 0;
+            while (i < arrLength) {
+    
+                if (arr[i] != arr2[i]) throw(new Exception("quicksort and bubblesort produced different results"));
+                i ++;
+            }
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+
         ins.stopTiming(null);
 
         ins.stopTiming("Main");
 
-        ins.dump("sort.log");
+        ins.dump("sort-"+arrLength+".log");
     }
 }

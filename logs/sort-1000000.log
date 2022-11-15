@@ -1,0 +1,12 @@
+STARTTIMING: Main
+|	STARTTIMING: Generate Array
+|	|	STARTTIMING: populateArray()
+|	|	STOPTIMING: Done populating 19ms
+|	STOPTIMING: null 19ms
+|	STARTTIMING: QuickSort
+|	STOPTIMING: Done sorting 87ms
+|	STARTTIMING: BubbleSort
+|	STOPTIMING: Done sorting 1250656ms
+|	STARTTIMING: Printing
+|	STOPTIMING: null 4ms
+STOPTIMING: Main 1250768ms

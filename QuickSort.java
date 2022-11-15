@@ -1,5 +1,7 @@
 public class QuickSort {
     
+    // private Instrumentation ins = Instrumentation.Instance();
+
     // A utility function to swap two elements
     static void swap(int[] arr, int i, int j)
     {
@@ -15,7 +17,7 @@ public class QuickSort {
        of pivot */
     static int partition(int[] arr, int low, int high)
     {
-  
+        
         // pivot
         int pivot = arr[high];
   
@@ -48,18 +50,17 @@ public class QuickSort {
         low --> Starting index,
         high --> Ending index
     */
+
     static void quickSort(int[] arr, int low, int high)
     {
+        Instrumentation.Instance().startTiming("quicksort");
         if (low < high) {
-  
-            // pi is partitioning index, arr[p]
-            // is now at right place
+            
             int pi = partition(arr, low, high);
-  
-            // Separately sort elements before
-            // partition and after partition
+            
             quickSort(arr, low, pi - 1);
             quickSort(arr, pi + 1, high);
         }
+        Instrumentation.Instance().stopTiming("End quicksort");
     }
 }
